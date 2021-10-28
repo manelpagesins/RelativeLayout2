@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Fuchsia"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:text="FUCHSIA"
+        android:textColor="@color/White"
+        android:layout_marginRight="90dp"/>
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toStartOf="@+id/b"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:background="@color/Yellow"
+        android:gravity="center"
+        android:text="YELLOW"
+        android:textColor="@color/Black" />
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/b"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:background="@color/Blue"
+        android:gravity="center"
+        android:text="BLUE"
+        android:textColor="@color/White"/>
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/c"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:background="@color/Purple"
+        android:gravity="center"
+        android:text="PURPLE"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/d"
+        android:background="@color/Green"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="GREEN"
+        android:textColor="@color/White" />
+
+    <TextView
+        android:id="@+id/f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-119dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/a"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="ORANGE"
+        android:textColor="@color/Black" />
+
+    <TextView
+        android:id="@+id/g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-148dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/f"
+        android:background="@color/Red"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:text="RED"
+        android:textColor="@color/Black" />
+
+
+</RelativeLayout>
